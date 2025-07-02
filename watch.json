@@ -1,0 +1,11 @@
+{
+  "install": {
+    "include": ["^package\\.json$"],
+    "exclude": []
+  },
+  "restart": {
+    "include": ["^\\.next"],
+    "exclude": ["\\.next/cache"]
+  },
+  "throttle": 1000
+}
